@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/todo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="todoContainer">
+      <h1>todo</h1>
+      <input id="task" /><button
+        id="add"
+        class="submit_on_enter"
+        onclick="add()"
+      >
+        Add Item
+      </button>
+      <hr />
+      <div id="todos"></div>
+    </div>
+    <script src="./js/todo.js"></script>
+    <footer>
+      <hr />
+      <p>Damiansoch&copy;&nbsp;2022</p>
+    </footer>
+  </body>
+</html>
